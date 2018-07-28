@@ -364,7 +364,8 @@ z-index: 2;
 }
 
 .row1{
-display:inline-flex;
+display:flex;
+flex-direction: row;
 position: relative;
   color: #555;
   padding-left:20px;
@@ -374,7 +375,8 @@ bottom:633px;
 
 }
   .row2{
-    display:inline-flex;
+    display:flex;
+    flex-direction: row;
     position: relative;
     color: #555;
     padding-left: 10px;
@@ -382,6 +384,17 @@ bottom:633px;
     margin-left: 30px;
     bottom:633px;
 
+  }
+  .part3{
+    position: relative;
+  
+    bottom:633px;
+    z-index: 2;
+
+  }
+  .flexdisplay{
+display: flex;
+flex-direction: row;
   }
   .pretext{
     display: flex;
