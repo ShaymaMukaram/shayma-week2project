@@ -97,7 +97,7 @@ width: 70%;
 
 }
 .col-2{
-  float:left;
+  float:right;
   width:30%;
   
 }
@@ -122,9 +122,7 @@ col-6{
 float: right;
   width: 70%;
 }
-[class*="col-"]{
-  margin-left: 2%;
-}
+
 .left {
 margin-left: 0%;
 }
@@ -191,11 +189,11 @@ float: right;
 
  }
  .title{
-display:inline;
-  position: relative; 
-  font-size: 1.3em;
-  text-align:center;
 
+  position: relative; 
+  font-size: 1.2em;
+ top: 20px;
+  text-align:center;
   font-family: 'Poiret One', cursive;
   color:#aeaaa0;
  letter-spacing:2.5px;
@@ -307,7 +305,7 @@ input, textarea {
   padding:10px 25px;
   border-radius: 6px;
   border: 2px solid #5a514c;
-  margin: 20px 0;
+  margin: 10px 0;
  
 }
 
@@ -331,6 +329,7 @@ input[type="submit"]:hover {
   display:flex;
   flex-direction: row-reverse;
   margin-right:25%;
+
 }
 
  .fab {
@@ -338,6 +337,8 @@ input[type="submit"]:hover {
 position: relative;
 color: white;
 padding:60%;
+padding-top: 70px;
+
 left: 5em;
 font-size: 2.5em;
 z-index: 2;
@@ -382,7 +383,7 @@ margin: 0 auto;
   .form{
   font: 1.2em 'Yanone Kaffeesatz', sans-serif;
   margin: 0 auto;
-  padding-top: 20px;
+  padding-top: 30px;
  
 }
 #border {
@@ -440,10 +441,11 @@ font-family: 'Poiret One', cursive;
 border: 2px solid white;
  border-radius: 4px;
 background-color: #5a514c; 
- padding:16px 35px;
+ padding:16px 30px;
+ width: 93%;
   text-align: center;
   color:white;
-  font-size: 1.2em;
+  font-size: 0.7em;
   font-family: 'Poiret One', cursive;
 }
 .pagebutton{
@@ -459,7 +461,9 @@ background-color: white;
   font-family: 'Poiret One', cursive;
 }
 footer{
-  display:flex;
+  position: relative;;
+  display: inline-flex;
+  flex-direction: row;
   text-align: center;
   font-size: 0.75em;
   background: #5a514c;
@@ -470,12 +474,19 @@ footer{
 }
 
 .form2{
+
+  bottom:80px;
+  left: 15px; 
+  border-radius: 3px;
+   position: relative;
  display: flex;
  flex-direction:column;
- position: relative;
-  padding:10px 15px;
   font: 1.2em 'Yanone Kaffeesatz', sans-serif;
 z-index: 3;
+}
+.form2 p{
+ margin: 0 auto;
+  padding-bottom: 20px;
 }
 /*responsive style */
 @media only screen and (max-width: 1108px){
