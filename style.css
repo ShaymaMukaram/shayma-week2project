@@ -252,10 +252,10 @@ label {
   
 }
 .menu{
-  margin: 0 30px 0 0;
+  margin: 0 40px 0 0;
 }
 .menu a{
-  clear: right;
+
   text-decoration: none;
   color: gray;
   line-height: 70px;
@@ -298,6 +298,14 @@ background-color: white;
  
 
 }
+.indexicon{
+left: 5em;
+padding-bottom: 30px;
+padding-left: 80px;
+padding-right: 80px;
+
+}
+
 
 input, textarea {
   display:flex;
@@ -339,27 +347,40 @@ position: relative;
 color: white;
 padding:60%;
 padding-top: 70px;
-
 left: 5em;
 font-size: 2.5em;
 z-index: 2;
 }
+.crop {
+  width: 500x;
+  height: 500px;
+  overflow: hidden;
+}
+
+.crop img {
+  width: 800px;
+  height: 900px;
+  margin: -75px 0 0 -100px;
+}
+
 .row1{
-display: flex;
-flex-direction: row;
+display:inline-flex;
+position: relative;
   color: #555;
-  padding: 30px;
-  font-size: 2.8em;
-margin-left: 20px;
+  padding-left:20px;
+  font-size: 2em;
+margin-left: 40px;
+bottom:633px;
 
 }
   .row2{
-    display:flex;
-    flex-direction:row;
+    display:inline-flex;
+    position: relative;
     color: #555;
-    padding: 30px;
-    font-size: 2.8em;
-    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 2em;
+    margin-left: 30px;
+    bottom:633px;
 
   }
   .pretext{
@@ -432,15 +453,20 @@ font-family: 'Poiret One', cursive;
     }
     .fa-bars{
       display: flex;
-      flex-direction: column-reverse;
+      flex-direction: column;
       color: #5a514c ;
       padding: 0px;
+      float: right;
       font-size: 1.6em;
     }
 .small{
-  font:0.3em 'Poiret One', cursive;
+  position: relative;
+display: flex;
+  font:0.4em 'Yanone Kaffeesatz', sans-serif;
   color: #5a514c;
- 
+ margin-top: 10%;
+right: 33px;
+
 }
 .button {
    display: flex;
@@ -533,7 +559,7 @@ z-index: 3;
     display:block;
 
   }
-  .menu{
+#navbar .menu{
   
     width: 100%;
     display: none;
@@ -548,9 +574,4 @@ z-index: 3;
 }
 
   }
-  @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-    }
-}
+  
