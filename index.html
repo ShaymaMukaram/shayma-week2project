@@ -3,42 +3,48 @@
 <head>
     <meta charset="utf-8" />
     <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link rel=" https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
 </head>
 <body>
 
-<header>   
-    <div id="navbar">    
-        <nav class="clearfix wrapper">
+<header>  
+    <div>
+    <div><img src="C:\Users\IB-1\shayma-week2project\images\nik-lanus-41808-unsplash.jpg"> <p class="bottom-left">SWEET<br>DREAMS<br>HOSTEL
+    </div></p>
+    <div id="navbar" class="nav">    
+        <nav class="clearfix wrapper ">
         <a href="aboutus.html">About Us</a><a href="faq.html">FAQ</a><a href="Contactus.html">Contact Us</a><a id="bookaroom" href="bookaroom.html">Book A Room</a>
-        </nav> </div>
- </header>
+         </nav> </div>
+             <div>
+                <form action="#" method="post" class="headerform"> 
+                    <span class="span">Vistors</span>
+                        <label for="dateandtime" ><span class="span">Checkin</span></label>
+                        <input type="date" id="checkin" name="dateandtime" placeholder="day/month/year"  class="headerinput">
+                        <label for="dateandtime"><span class="span">Checkout</spans></label>
+                        <input type="date" id="checkout" name="dateandtime" placeholder="day/month/year" class="headerinput">
+                        <button type="button"  value="Continue" class="hbutton">Continue</form></div></div>
+   
+  </div></header>
+    <section class="iconbar">
     
-     <div class="backgroundcolor">
-    <section> 
-            <img src="C:\Users\IB-1\shayma-week2project\images\nik-lanus-41808-unsplash.jpg" width="100%" height="15%">
-             <p class="bottom-left">SWEET<br>DREAMS<br>HOSTEL</p>
-             <div class="form2">
-                <form action="#" method="post" >
-                        <input type="text" id="checkin" name="fullname" placeholder="day/month/year" >
-                        <input type="text" id="checkout" name="email" placeholder="day/month/year" >
-                        <input type="button"  value="Continue"></form></div>
-    </section>
-    
-    <section>
-            <p class="title wrapper first">OUR SERVICES</p>
-     <i class="fas fa-shower row1"><p class="small">Hot And Cold Water</p></i>
-     <i class="fas fa-key row1"><p class="small">Private Lockers in Rooms</p></i>
-     <i class="fas fa-wifi row1"><p class="small">Wifi Acess in All Rooms</p></i>
-     <i class="fas fa-camera row2"><p class="small">Discounts On Daily Tours</p></i></li>
-     <i class="far fa-credit-card row2"><p class="small">We Accept All Major Credit Cards</p></i>
-     <i class="fas fa-utensils row2"><p class="small">Free Breakfast</p></i> 
+        <div >
+
+            <p class="wrapper first">OUR SERVICES</p>
+            <div class="row1">
+     <i class="fas fa-shower"><p class="small">Hot And Cold Water</p></i>
+     <i class="fas fa-key"><p class="small">Private Lockers in Rooms</p></i>
+     <i class="fas fa-wifi"><p class="small">Wifi Acess in All Rooms</p></i>
+    </div>
+    <div class="row2">
+     <i class="fas fa-camera "><p class="small">Discounts On Daily Tours</p></i></li>
+     <i class="far fa-credit-card "><p class="small">We Accept All Major Credit Cards</p></i>
+     <i class="fas fa-utensils "><p class="small">Free Breakfast</p></i> </div>
 
     
-</section></div>
+</div></section>
 
 <section class="col-1  backgroundcolor">
     <img src="C:\Users\IB-1\shayma-week2project\images\sylwia-pietruszka-218324-unsplash.jpg" alt="Our Room" width="670px" height="565px">
@@ -107,19 +113,20 @@
       
             </div></div>
 </section>
-<footer class="footer"> 
-    <div>
-           <h3 class="log first">STAY IN TOUCH</h3>
-            <form action="#" method="post" >
-                    <input type="text" id="fullname" name="fullname" placeholder="your name" >
-                    <input type="email" id="email" name="email" placeholder="your email" >
-                    <input id="border" type="submit" value="Sign Up"></form></div>
-       <div>
-           <a href="twitter.com"><i class="fab fa-twitter-square"></i></a>  
-           <a href="facebook.com"><i class="fab fa-facebook-square"></i></a> 
-           <a href="instagram.com"> <i class="fab fa-instagram"></i></a>
-           <a href="tripadvisor.com"><i class="fab fa-tripadvisor"></i></a></div>
-       </footer>
+
+<footer>
+        <div  class="col-1"  >
+        <h3 class="log first">STAY IN TOUCH</h3>
+         <form action="#" method="post" class=" form2 first" >
+         <input type="text" id="fullname" name="fullname" placeholder="your name" >
+         <input type="email" id="email" name="email" placeholder="your email">
+         <button type="button" class="button">Sign Me Up!</button></form></div>
+       <div class="col-2 ficon">
+        <a href="twitter.com"><i class="fab fa-twitter-square"></i></a>  
+        <a href="facebook.com"><i class="fab fa-facebook-square"></i></a> 
+        <a href="instagram.com"> <i class="fab fa-instagram"></i></a>
+        <a href="tripadvisor.com"><i class="fab fa-tripadvisor"></i></a>
+    </div></footer>
 
 </body>
 </html>
